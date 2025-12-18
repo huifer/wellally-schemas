@@ -1,0 +1,17 @@
+[package]
+name = "wellally"
+version = "0.0.1"
+edition = "2021"
+authors = ["WellAlly Team <huifer97@163.com>"]
+description = "Health data models for WellAlly platform"
+homepage = "https://www.wellally.tech/"
+repository = "https://github.com/huifer/wellally-schemas"
+license = "MIT"
+keywords = ["health", "healthcare", "fhir", "hl7", "medical"]
+categories = ["api-bindings", "data-structures"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+serde_with = "3.16.1"
